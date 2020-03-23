@@ -8,3 +8,14 @@ How to make a github page with theme: https://github.community/t5/GitHub-Pages/P
 
 <a href = "test.html"> link </a>
 
+<button id="fancy" type = "button" > TestButton </button>
+
+<script>
+document.getElementById("fancy").addEventListener(
+    "click", 
+    function(){
+    	alert("something")
+        document.getElementById("fancy").style.backgroundColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+    }
+);
+</script>
