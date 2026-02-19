@@ -1,21 +1,149 @@
 ---
 layout: default
 ---
-<a href = "https://mindecrypt.github.io/zen_doodle/zen_doodle_bird_01.pdf"> Zen Doodle Bird 01 </a>
-<!-- Testing.
-Not sure why the previous code is showing up instead.
-How to make a github page with theme: https://github.community/t5/GitHub-Pages/Page-not-showing-the-theme/td-p/5545
 
-<a href = "test.html"> link </a>
+<style>
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: white;
+    overflow-x: hidden;
+}
 
-<button id="fancy" type = "button" > TestButton </button>
+.hero {
+    text-align: center;
+    padding: 100px 20px 60px 20px;
+}
 
-<script>
-document.getElementById("fancy").addEventListener(
-    "click", 
-    function(){
-    	alert("something")
-        document.getElementById("fancy").style.backgroundColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
-    }
-);
-</script> -->
+.hero h1 {
+    font-size: 4rem;
+    letter-spacing: 3px;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4, #fbc2eb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    font-size: 1.3rem;
+    opacity: 0.8;
+}
+
+.section {
+    padding: 80px 10%;
+}
+
+.glass-card {
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 60px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+    transition: 0.4s ease;
+}
+
+.glass-card:hover {
+    transform: translateY(-8px);
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffd6ff;
+}
+
+.links a {
+    display: inline-block;
+    margin: 10px 15px 0 0;
+    padding: 12px 20px;
+    border-radius: 30px;
+    background: linear-gradient(45deg, #ff6ec4, #7873f5);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.links a:hover {
+    transform: scale(1.1);
+}
+
+iframe {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 50px;
+    opacity: 0.6;
+}
+</style>
+
+<div class="hero">
+    <h1>ZEN ART DESIGN</h1>
+    <p>Digital Art · 3D Worlds · Music · Code · Story</p>
+</div>
+
+<div class="section">
+
+    <div class="glass-card">
+        <h2>🎨 Featured Sketchfab Objects</h2>
+        <iframe title="Sketchfab"
+        height="480"
+        src="https://sketchfab.com/models/7w7pAfr123/embed">
+        </iframe>
+        <div class="links">
+            <a href="https://sketchfab.com/zenartdesign" target="_blank">View Full Sketchfab Profile</a>
+        </div>
+    </div>
+
+    <div class="glass-card">
+        <h2>🖌 Art YouTube Channel</h2>
+        <iframe height="480"
+        src="https://www.youtube.com/embed?listType=user_uploads&list=zenartdesign1225">
+        </iframe>
+        <div class="links">
+            <a href="https://www.youtube.com/@zenartdesign1225" target="_blank">Visit Art Channel</a>
+        </div>
+    </div>
+
+    <div class="glass-card">
+        <h2>🎵 Music & Cinematic Sound</h2>
+        <iframe height="480"
+        src="https://www.youtube.com/embed/MWVwRgKoiUQ">
+        </iframe>
+        <div class="links">
+            <a href="https://www.youtube.com/@zenartmusic2967" target="_blank">Music Channel</a>
+        </div>
+    </div>
+
+    <div class="glass-card">
+        <h2>📸 Instagram</h2>
+        <p>@hello.world.123.456</p>
+        <div class="links">
+            <a href="https://www.instagram.com/hello.world.123.456" target="_blank">Open Instagram</a>
+        </div>
+    </div>
+
+    <div class="glass-card">
+        <h2>🌐 Website & Professional</h2>
+        <div class="links">
+            <a href="https://your-wix-placeholder.wixsite.com/art" target="_blank">Art Website</a>
+            <a href="https://linkedin.com/in/your-linkedin-placeholder" target="_blank">LinkedIn</a>
+        </div>
+    </div>
+
+    <div class="glass-card">
+        <h2>🕊 Downloadable Artwork</h2>
+        <a href="https://mindecrypt.github.io/zen_doodle/zen_doodle_bird_01.pdf">
+            Zen Doodle Bird 01
+        </a>
+    </div>
+
+</div>
+
+<div class="footer">
+    © 2026 Zen Art Design · Built with Light & Curiosity
+</div>
